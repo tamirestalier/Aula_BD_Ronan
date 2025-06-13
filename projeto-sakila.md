@@ -268,7 +268,7 @@ SELECT film_id, COUNT(*) AS locacoes
 FROM rental  
 JOIN inventory USING(inventory_id)  
 GROUP BY film_id  
-HAVING locacoes > 30; 
+HAVING locacoes > 30;
 ----
 🎯 Desafio 2: Clientes com gasto médio acima de X
 SELECT  
